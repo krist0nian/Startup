@@ -246,17 +246,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
     margin-top: 64px;
-    width: 90%;
+    width: 100%;
 }
 
 .feature {
-    width: 250px;
-    height: 300px;
+    width: 240px;
+    height: 320px;
     border-radius: 5px;
-    padding: 24px;
+    padding: 22px;
     background: rgb(240, 241, 241);
 }
 
@@ -429,7 +429,7 @@ main {
 }
 
 .testimonial__container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -464,7 +464,7 @@ main {
 }
 
 .testimonial__box {
-    max-width: 360px;
+    max-width: 320px;
     width: 100%;
     border-radius: 5px;
     padding: 28px;
@@ -579,9 +579,11 @@ textarea {
 }
 
 .footer__container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 0 50px 0;
     display: flex;
     height: 330px;
 }
@@ -590,6 +592,7 @@ textarea {
     margin-top: 50px;
     max-width: 1200px;
     display: flex;
+    justify-content: center;
     gap: 80px;
 }
 
@@ -607,7 +610,7 @@ textarea {
 }
 
 input {
-    width: 360px;
+    width: 310px;
     height: 32px;
     font-size: 16px;
     margin-top: 10px;
@@ -626,13 +629,13 @@ input {
 }
 
 .social__links {
-    margin-top: 60px;
+    margin-top: 46px;
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .social__link--icon {
-    max-width: 50px;
+    max-width: 44px;
     filter: invert(40%);
 }
